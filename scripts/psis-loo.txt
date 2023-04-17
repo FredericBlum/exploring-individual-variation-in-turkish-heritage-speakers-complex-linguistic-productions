@@ -1,0 +1,13 @@
+% latex table generated in R 4.2.1 by xtable 1.8-4 package
+% Mon Nov 21 11:40:12 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrrrr}
+  \hline
+Model & ELPD & Standard error of ELPD & LOO-IC & Standard error of LOO-IC \\ 
+  \hline
+Grouped model & 0.00 & 0.00 & 19745.54 & 238.66 \\ 
+  Ungrouped Model & -3.41 & 1.90 & 19752.37 & 238.75 \\ 
+   \hline
+\end{tabular}
+\end{table}

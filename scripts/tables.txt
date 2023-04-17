@@ -1,0 +1,58 @@
+##############################
+> print(xtable(fixed_effects), include.rownames = FALSE)
+% latex table generated in R 4.0.5 by xtable 1.8-4 package
+% Sun May 22 14:46:16 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{lrl}
+  \hline
+Parameter & Estimate & 89\% HPDI \\ 
+  \hline
+Final & 0.03 & 0.02 to 0.04 \\ 
+  Initial & 0.21 & 0.19 to 0.23 \\ 
+  Medial & 0.06 & 0.05 to 0.07 \\ 
+  Informal Register & 0.49 & 0.47 to 0.50 \\ 
+  Length of Utterance & 0.48 & 0.47 to 0.49 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+###############################
+> print(xtable(group_results), include.rownames = FALSE)
+% Sun May 22 16:48:09 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{llrl}
+  \hline
+Parameter & Group & Estimate & 89\% HPDI \\ 
+  \hline
+Initial & Germany & 0.21 & 0.17 to 0.25 \\ 
+  Initial & Turkey & 0.22 & 0.18 to 0.27 \\ 
+  Initial & USA & 0.20 & 0.15 to 0.24 \\ 
+  Medial & Germany & 0.06 & 0.04 to 0.09 \\ 
+  Medial & Turkey & 0.05 & 0.03 to 0.07 \\ 
+  Medial & USA & 0.06 & 0.04 to 0.08 \\ 
+  Final & Germany & 0.03 & 0.02 to 0.05 \\ 
+  Final & Turkey & 0.04 & 0.02 to 0.06 \\ 
+  Final & USA & 0.03 & 0.01 to 0.04 \\ 
+   \hline
+\end{tabular}
+\caption{Probability for discourse markers across groups and positions} 
+\label{table: slopes_group}
+\end{table}
+
+#################################
+% Sun May 22 17:31:25 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{lllllll}
+  \hline
+Variable & Estimate\_Final & Estimate\_Initial & Estimate\_Medial & 89\% HPDI\_Final & 89\% HPDI\_Initial & 89\% HPDI\_Medial \\ 
+  \hline
+Group & 0.17 & 0.09 & 0.14 & 0.02 to 0.38 & 0.01 to 0.23 & 0.03 to 0.30 \\ 
+  Speaker & 0.65 & 0.62 & 0.61 & 0.49 to 0.83 & 0.53 to 0.71 & 0.54 to 0.69 \\ 
+   \hline
+\caption{Standard deviation for all positions on logit-scale} 
+\label{table: sd_vars}
+\end{table}
